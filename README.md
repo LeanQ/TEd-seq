@@ -6,13 +6,12 @@ TED-Seq Germline Short-reads pipeline is the bioinformatic pipeline used to dete
 - [TED-Seq Germline Short-reads pipeline ](#TED-Seq Germline Short-reads pipeline )
   * [Installation](#installation)
     + [Dependencies](#dependencies)
-  * [TED-Seq short-reads main steps](#TED-Seq short-reads main steps)
+  * [TED-Seq short-reads main steps](#TED-Seq-short-reads-main-steps)
   * [Input data](#input-data)
   * [Usage](#usage)
 	+ [Output](#output)
   * [Cite](#cite)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
 
