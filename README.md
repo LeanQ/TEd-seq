@@ -1,12 +1,12 @@
-# TED-Seq Germline Short-reads pipeline 
+# TEd-Seq Germline Short-reads pipeline 
 
-TED-Seq Germline Short-reads pipeline is the bioinformatic pipeline used to detect transposable element insertions with ultra high sensitivity using custom made libraries to enrich and capture TE insertions (TED-Seq).
+TEd-Seq Germline Short-reads pipeline is the bioinformatic pipeline used to detect transposable element insertions with ultra high sensitivity using custom made libraries to enrich and capture TE insertions (TEd-Seq).
 
 ## Table of contents
-- [TED-Seq Germline Short-reads pipeline ](#TED-Seq Germline Short-reads pipeline )
+- [TEd-Seq Germline Short-reads pipeline ](#TEd-Seq Germline Short-reads pipeline )
   * [Installation](#installation)
     + [Dependencies](#dependencies)
-  * [TED-Seq short-reads main steps](#TED-Seq-short-reads-main-steps)
+  * [TEd-Seq short-reads main steps](#TEd-Seq-short-reads-main-steps)
   * [Input data](#input-data)
   * [Usage](#usage)
 	+ [Output](#output)
@@ -18,7 +18,7 @@ TED-Seq Germline Short-reads pipeline is the bioinformatic pipeline used to dete
 
 ### Dependencies
 
-TEDSeq Germline Short-reads pipeline requires the following softwares:
+TEd-Seq Germline Short-reads pipeline requires the following softwares:
 
 * SAMtools (v1.2 or higher) (http://samtools.sourceforge.net/)
 * Bowtie2 (v2.2.9 or higher) (https://sourceforge.net/projects/bowtie-bio/files/bowtie2/)
@@ -28,7 +28,7 @@ TEDSeq Germline Short-reads pipeline requires the following softwares:
 * bedtools (v2.20.1 or higher) (https://bedtools.readthedocs.io/en/latest/content/installation.html)
 
 
-## TED-Seq short-reads main steps
+## TEd-Seq short-reads main steps
 
 
 
@@ -45,7 +45,7 @@ TEDSeq Germline Short-reads pipeline requires the following softwares:
 
 This pipeline requires as an input:
 
-1. A raw fastq file derived from TED-seq data demultiplexed for the corresponding barcodes
+1. A raw fastq file derived from TEd-seq data demultiplexed for the corresponding barcodes
 2. A tab-delimited file containing TE family coordinates across the genome. The file should have the following format: 
 
 	- Chromosome name (should be the same nomenclature as in the reference genome fasta file)
@@ -80,7 +80,7 @@ bash Short_read_TEDSeq_TE_germline.sh
 
 ### Output
 
-TED-Seq Germline Short-reads pipeline will return as an output:
+TEd-Seq Germline Short-reads pipeline will return as an output:
 
 * Two bam files of the mapping of the deduplicated and trimmed short-reads to the reference genome
  $sample_clip_disc-local.bam
